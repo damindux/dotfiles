@@ -1,0 +1,20 @@
+# ignore everything
+/*
+
+# do not ignore this file
+!.gitignore
+
+# do not ignore this directory
+!/fish
+# ignore files and sub dirs in this directory
+/fish/*
+# but do not ignore this file 
+!/fish/config.fish
+
+!/nvim
+
+!/kitty
+
+!/rofi
+/rofi/*
+!/rofi/config.rasi
