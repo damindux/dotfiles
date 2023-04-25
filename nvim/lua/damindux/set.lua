@@ -19,7 +19,7 @@ vim.opt.termguicolors = true
 vim.cmd "set noshowmode"
 
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
 
+vim.opt.signcolumn = "number"
 vim.opt.updatetime = 50
 
