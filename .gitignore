@@ -18,3 +18,11 @@
 !/rofi
 /rofi/*
 !/rofi/config.rasi
+
+!/i3
+
+!/qtile
+/qtile/*
+!/qtile/config.py
+!/qtile/autostart.sh
+!/qtile/icons/

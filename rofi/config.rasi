@@ -1,34 +1,34 @@
 @import "default"
 
 * {
-	bg: #232136;
+	bg: #2f343f;
 	cur: #2a273f;
-	fgd: #e0def4;
+	fgd: #f3f4f5;
 	cmt: #6e6a86;
 	cya: #9ccfd8;
 	grn: #3e8fb0;
 	ora: #ea9a97;
-	pur: #c4a7e7;
+	pur: #cf9fff;
 	red: #eb6f92;
 	yel: #f6c177;
 
-	font: "Cartograph CF 12";
+	font: "JetBrainsMono NF 10";
 
 	foreground: @fgd;
 	background: @bg;
-	active-background: @grn;
+	active-background: @pur;
 	urgent-background: @red;
 
 	selected-background: @active-background;
 	selected-urgent-background: @urgent-background;
 	selected-active-background: @active-background;
 	separatorcolor: @active-background;
-	bordercolor: @ora;
+	bordercolor: @active-background;
 }
 
 #window {
 	background-color: @background;
-	border:           3;
+	border:           1;
 	border-radius:    6;
 	border-color:     @bordercolor;
 	padding:          5;
@@ -71,7 +71,7 @@
 }
 #element.selected.normal {
 	background-color: @selected-background;
-	text-color:       @foreground;
+	text-color:       @background;
 }
 #element.selected.urgent {
 	background-color: @selected-urgent-background;
@@ -122,14 +122,14 @@
 }
 #prompt {
 	spacing:    0;
-	text-color: @grn;
+	text-color: @pur;
 }
 #inputbar {
 	children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
 }
 #textbox-prompt-colon {
 	expand:     false;
-	str:        ":";
+	str:        " ->";
 	margin:     0px 0.3em 0em 0em;
-	text-color: @grn;
+	text-color: @pur;
 }

@@ -3,6 +3,9 @@ set -U fish_greeting ""
 alias ls="ls -a"
 alias vim="nvim"
 alias ll="exa -al"
+alias spotify="flatpak run com.spotify.Client"
+alias netbeans="flatpak run org.apache.netbeans"
+alias intellij="flatpak run com.jetbrains.IntelliJ-IDEA-Ultimate"
 
 fish_add_path ~/.local/bin
 
