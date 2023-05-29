@@ -235,3 +235,4 @@ exec_always xinput set-prop "SYNA32C5:00 06CB:CD50 Touchpad" "libinput Tapping E
 exec_always --no-startup-id feh --bg-scale /home/damindux/Pictures/Wallpapers/vaporwave.png
 exec --no-startup-id compton
 exec --no-startup-id flatpak run com.spotify.Client
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
