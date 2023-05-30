@@ -137,7 +137,7 @@ for i, (name, kwargs) in enumerate(group_names, 1):
 def init_layout_theme():
     return {"margin":9,
             "border_width": 2,
-            "border_focus":"#008ad7",
+            "border_focus":"#cf9fff",
             "border_normal":"#4c566a",
             }
 
@@ -179,7 +179,7 @@ extension_defaults = widget_defaults.copy()
 
 screens = [
     Screen(
-        wallpaper='/home/damindux/Pictures/Wallpapers/vaporwave.png',
+        wallpaper='/home/damindux/Pictures/Wallpapers/beach-lighthouse.jpg',
         wallpaper_mode='fill',
         top=bar.Bar(
             [
